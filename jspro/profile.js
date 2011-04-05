@@ -1,5 +1,22 @@
 
-(function(){
+(function($){
+	
+	var imgManager = {
+		changeImg: function(tagId){
+			$.ajax({
+				type:'post',
+				url:'changeImg.do',
+				data:{'tagId':tagId},
+				cache:false,
+				success: function(data){
+					view.renderImg(data);
+				},
+				error: function(){
+					alert( '抱歉，请求出错！' );
+				}
+			});
+		}
+	}
 	
 	var view = {
 		init: function(){
@@ -7,9 +24,15 @@
 			this.bindEvent();
 		},
 		getUIRef: function(){
-			this
+			this.imgNav1_ul = $( '.imgNav1_ul' );
+			this.imgNav1_li = $( '.imgNav1_li' );
 		},
 		bindEvent: function(){
+			this.imgNav_li.click(function(){
+				
+			});
+		},
+		renderImg: function(data){
 			
 		}
 

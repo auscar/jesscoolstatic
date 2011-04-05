@@ -20,7 +20,7 @@ a:hover{text-decoration:underline;}
 
 #quickLink{height:22px;float:left;line-height:22px;padding-left:80px;}
 #quickLink li{float:left;padding-right:10px;}
-#login{height:22px;float:right;line-height:22px;}
+#login{height:22px;float:right;line-height:22px;color:#fff;}
 #login li{float:left;padding-left:10px;}
 #logo{clear:both;text-align:right;}
 

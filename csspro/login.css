@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;font-size:16px;color:#aaa;}
+body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;}
 a{text-decoration:none;color:#000;}
 a:hover{text-decoration:underline;}
 
@@ -29,7 +29,7 @@ a:hover{text-decoration:underline;}
 
 
 /*-- main --*/
-#main{width:860px;padding:40px 0px 100px 0px;}
+#main{width:860px;padding:40px 0px 100px 0px;color:#aaa;}
 
 .userLogin{float:left;width:290px;}
 .memberForget{float:right;width:290px;}
@@ -52,6 +52,6 @@ a:hover{text-decoration:underline;}
 
 
 /*-- footer --*/
-#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;}
+#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;font-size:12px;}
 
 

@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;font-size:12px;}
+body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;}
 a{text-decoration:none;color:#000;}
 a:hover{text-decoration:underline;}
 
@@ -43,7 +43,7 @@ a:hover{text-decoration:underline;}
 .articleDate dd{height:24px;line-height:24px;background-color:#000;}
 
 .articleDetail{position:relative;padding:10px 0px 15px 0px;}
-.detialText{line-height:20px;position:relative;top:-11px;}
+.detialText{line-height:20px;position:relative;top:-11px;font-size:13px;}
 .detialText img{margin:15px 0px 4px 0px;}
 .articleDetail .articleDate{top:15px;}
 
@@ -69,6 +69,6 @@ a:hover{text-decoration:underline;}
 #imgTagEditAndDel img{padding-left:5px;}
 
 /*-- footer --*/
-#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;}
+#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;font-size:12px;}
 
 
