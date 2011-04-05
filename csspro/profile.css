@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;}
-a{text-decoration:none;color:#000;}
+a{text-decoration:none;color:#000;outline:none;}
 a:hover{text-decoration:underline;}
 
 .clear{clear:both;font-size:0px;}
@@ -43,8 +43,8 @@ a:hover{text-decoration:underline;}
 .articleDate dd{height:24px;line-height:24px;background-color:#000;}
 
 .articleDetail{position:relative;padding:10px 0px 15px 0px;}
-.detialText{line-height:20px;position:relative;top:-11px;font-size:13px;}
-.detialText img{margin:15px 0px 4px 0px;}
+.detailText{line-height:20px;position:relative;top:-11px;font-size:13px;}
+.detailText img{margin:15px 0px 4px 0px;}
 .articleDetail .articleDate{top:15px;}
 
 
@@ -54,7 +54,7 @@ a:hover{text-decoration:underline;}
 #articleType{width:240px;clear:both;margin-top:42px;font-size:14px;}
 #articleType li{position:relative;margin-bottom:1px;}
 #articleType li.hover{background-color:#f9f7f7;}
-#articleType li a{height:24px;line-height:24px;display:block;padding-left:18px;background:url(http://s.jesscool.com/imgpro/line.gif) repeat-x left bottom;}
+#articleType li a{height:24px;line-height:24px;display:block;padding:0px 0px 2px 18px;background:url(http://s.jesscool.com/imgpro/line.gif) repeat-x left bottom;}
 #articleType li.selected{background-color:#eee;font-weight:bold;}
 #articleType li.selected a{background:url(http://s.jesscool.com/imgpro/articleType_dec.gif) no-repeat left center;position:relative;left:-6px;text-indent:6px;}
 #articleType li a:hover{/*background-color:#eee;color:#000;*/text-decoration:none;}
@@ -66,7 +66,7 @@ a:hover{text-decoration:underline;}
 .imgOperation{cursor:pointer;padding:5px;position:absolute;right:-10px;top:0px;}
 
 #imgTagEditAndDel{display:none;position:absolute;right:-30px;top:2px;}
-#imgTagEditAndDel img{padding-left:5px;}
+#imgTagEditAndDel img{padding:0px 0px 8px 5px;}
 
 /*-- footer --*/
 #footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;font-size:12px;}
