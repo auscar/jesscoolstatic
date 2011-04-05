@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;font-size:16px;color:#aaa;}
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:underline;}
+
+.clear{clear:both;font-size:0px;}
+.clearFloat{zoom:1;}
+.clearFloat:after{content:".";display:block;height:0;font-size:0px;clear:both;visibility:hidden;}
+
+
+
+#box{width:860px;margin:0px auto;}
+
+
+/*-- header --*/
+#header{height:57px;font-size:13px;margin-bottom:10px;}
+#header a{color:#fff;}
+#header a:hover{color:#fff;text-decoration:underline;}
+
+#quickLink{height:22px;float:left;line-height:22px;}
+#quickLink li{float:left;padding-right:10px;}
+#login{height:22px;float:right;line-height:22px;color:#fff;}
+#login li{float:left;padding-left:10px;}
+#logo{clear:both;text-align:right;}
+.recommend{text-align:right;position:relative;top:10px;right:0px;}
+#header .recommend a{color:#000;}
+#header .recommend a:hover{color:#000;}
+
+
+/*-- main --*/
+#main{width:860px;padding:40px 0px 100px 0px;}
+
+.userLogin{float:left;width:290px;}
+.memberForget{float:right;width:290px;}
+.loginInput{height:16px;width:220px;line-height:16px;font-size:14px;padding:8px 5px;border:1px solid #e3e3e3;color:#aaa;}
+.loginForm .focus{border:1px solid #666;color:#333;}
+.loginTitle{font-size:24px;color:#000;}
+.loginDec{font-size:12px;line-height:45px;}
+.loginForm li{height:34px;margin-bottom:10px;}
+.loginSubmit{margin-left:48px;}
+
+.register{margin-left:100px;}
+.registerReset{border:none; background-color:transparent;vertical-align:8px;margin-left:10px;color:#aaa;cursor:pointer;}
+
+.userInfo{padding-left:100px;width:auto;}
+.userInfo li{height:34px;margin-bottom:10px;}
+.userInfo-form label{display:inline-block;width:80px;}
+.userInfoSubmit{padding-left:80px;}
+
+
+
+
+/*-- footer --*/
+#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;}
+
+

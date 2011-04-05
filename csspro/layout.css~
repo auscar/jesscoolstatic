@@ -1,0 +1,83 @@
+
+/*-- style for container start --*/
+#container{width:950px;margin:0px auto; position:relative;}
+/*-- style for container end --*/
+
+
+
+/*-- style for header start --*/
+#header{height:126px;}
+/*-- style for header end --*/
+
+
+/*-- style for main start --*/
+#content{width:625px;float:left;margin-top:228px;}
+
+#hot_style{width:623px;height:176px;}
+#hot_style dl{width:102px;float:left;}
+#hot_style dt img{width:100px;height:100px;}
+#hot_style h1{height:25px;}
+#hot_style div{width:590px;}
+
+#dec_style{width:623px;height:110px;}
+#dec_style dt,#dec_style dd{float:left;}
+
+.han_style{width:603px;}
+.han_style h1{height:14px;}
+.han_style ul li{width:275px; float:left;}
+
+.han_example_box{}
+.han_example_box dl{width:171px;float:left;margin-right:30px;display:inline;}
+.han_example_box dl dt{width:169px;}
+
+#sidebar{width:317px;float:right;}
+/*-- style for main end --*/
+
+
+
+/*-- style for footer start --*/
+#footer{height:85px;}
+#links dt,#links dd{float:left;height:20px;}
+/*-- style for footer end --*/
+
+
+
+/*-- style for logo,ad,nav2,banner start --*/
+#logo{width:210px;height:76px; position:absolute;top:2px;left:14px;}
+#banner{width:623px;height:216px;position:absolute;left:0px;top:126px;}
+#banner object,#banner embed{ width:623px; height:216px;}
+#banner .extra{}
+
+
+
+
+#ad{width:150px;height:48px; position:absolute;top:20px;right:260px;}
+
+#nav2{width:175px;height:25px; position:absolute;top:27px;right:45px;}
+#nav2 ul{height:25px;}
+#nav2 ul li{float:left;} 
+/*-- style for logo,ad,nav2,banner end --*/
+
+
+
+/*-- style for nav1 start --*/
+#nav1{height:38px;width:950px; position:absolute;top:81px;left:0px;}
+#nav1 ul{height:38px;}
+#nav1 ul li{float:left;height:38px;}
+/*-- style for nav1 end --*/
+
+
+
+/*-- style for more start --*/
+.news_more{width:623px;background-color:#fefaf4;border:1px solid #e2cab0; }
+.news_more h1{height:25px;line-height:25px;padding-left:10px;background-color:#f7f0e6;color:#cc6600;font-size:14px;}
+.news_more .article_body{ padding:10px; }
+
+
+.more_list_box{width:585px;margin:0px auto 20px auto;padding:20px 0px; background:url(../images/line.jpg) repeat-x left bottom;}
+.more_list_box img{float:left;border:1px solid #dfddd9;width:100px;}
+.more_list_text{width:470px;float:right;letter-spacing:2px;}
+.more_list_text p{}
+.more_list_text h2{color:#8c7556;font-size:12px;margin-bottom:7px;}
+/*-- style for more end --*/
+

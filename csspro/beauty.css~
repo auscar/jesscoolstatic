@@ -1,0 +1,94 @@
+
+body{ background-color:#f8e3c8;color:#666;}
+
+a{color:#666; text-decoration:none;}
+a:hover{color:#cc6600; text-decoration:none;}
+
+
+/*-- style for main start --*/
+#hot_style{ background-color:#fefaf4;border:1px solid #e2cab0;}
+#hot_style h1{ background:url(http://s.jesscool.com/imgpro/hot_style.jpg) #f7f0e6 no-repeat 10px top;}
+#hot_style dl{margin-right:16px;display:inline;}
+#hot_style dt{border:1px solid #dfddd9;margin-bottom:3px;}
+#hot_style dd{ text-align:center;}
+#hot_style div{ margin:12px auto 0px 24px;}
+
+#dec_style{border:1px solid #e2cab0; background:url(http://s.jesscool.com/imgpro/dec1.jpg) #fefaf4 no-repeat 105px 5px;}
+#dec_style dt{padding:12px 42px 12px 10px; background:url(http://s.jesscool.com/imgpro/cloth_dec_title.jpg) no-repeat 10px 35px;}
+#dec_style dt input{margin-top:50px;}
+#dec_style dd{padding:12px 10px;}
+
+.han_style{ background-color:#fefaf4;border:1px solid #e2cab0;padding:0px 10px;letter-spacing:1px;}
+.han_style p{padding-bottom:10px; background:url(http://s.jesscool.com/imgpro/line.jpg) repeat-x bottom left;}
+.han_style h1{ background:url(http://s.jesscool.com/imgpro/han_style_title.jpg) no-repeat 0px 0px; text-indent:-9999px;margin:10px 0px;font-size:14px;letter-spacing:0px;}
+.han_style ul li{ background:url(http://s.jesscool.com/imgpro/dec2.jpg) no-repeat 0px 6px;padding-left:10px;}
+
+.han_style h1.oumei{ background:url(http://s.jesscool.com/imgpro/oumei_style_title.jpg) no-repeat 0px 0px; text-indent:-9999px;margin:10px 0px;font-size:14px;}
+
+.han_example_box dl dt{border:1px solid #e2cab0;margin-bottom:8px;}
+.han_example_box dl dt img{width:169px;height:220px;}
+
+#sidebar{border:1px solid #e2cab0; background-color:#fefaf4;}
+
+/*-- style for main end --*/
+
+
+
+/*-- style for sidebar start--*/
+.news_list_box{width:290px;margin:0px auto; position:relative;}
+.news_list_box h1{height:20px; background:url(http://s.jesscool.com/imgpro/news_title_bg.jpg) no-repeat left bottom;font-size:14px;color:#cc6600;padding:5px 0px;}
+.news_list_box ul li{ position:relative;width:203px;padding-left:22px;padding-right:65px; background:url(http://s.jesscool.com/imgpro/dec3.jpg) no-repeat 0px 4px;letter-spacing:2px;margin-bottom:2px;}
+.news_list_box ul li span{ position:absolute;right:0px;top:0px;letter-spacing:normal;}
+
+.news_tab{width:120px;}
+.news_list_box .news_tab .current{ background:url(http://s.jesscool.com/imgpro/news_tab_current_bg.jpg) repeat-x left bottom;}
+.news_list_box .news_tab li{width:auto;float:left;padding:2px 6px 8px 6px; background:none; cursor:pointer;}
+.news_title_bg2 h1{ background:url(http://s.jesscool.com/imgpro/news_title_bg2.jpg) no-repeat left bottom;}
+#tab_box2,#tab_box3{display:none;}
+/*-- style for sidebar end --*/
+
+
+
+/*-- style for footer start --*/
+#footer{ background:url(http://s.jesscool.com/imgpro/footer_dec.jpg) no-repeat 30px 39px;clear:both;color:#96755d;margin-top:10px;}
+#footer a{color:#96755d;}
+
+#links dt{padding:3px 10px;line-height:20px;color:#82614a;font-weight:bold;}
+#links dd{padding:3px 10px;line-height:20px;}
+
+#copyright{clear:both;border-top:2px solid #83614b;padding-top:3px; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:right;padding-right:25px;}
+/*-- style for footer end --*/
+
+
+
+/*-- style for logo,ad,nav2,banner start --*/
+#logo{ background:url(http://s.jesscool.com/imgpro/logo.jpg) no-repeat top left;}
+
+#ad{ background:url(http://s.jesscool.com/imgpro/ad.jpg) no-repeat top left;}
+
+#nav2{ overflow:hidden;}
+#nav2 ul{margin-left:-1px;line-height:25px;}
+#nav2 ul li{ background:url(http://s.jesscool.com/imgpro/nav2_dec.jpg) no-repeat left 7px;}
+#nav2 ul li a{color:#b76c00;padding:0px 8px 0px 9px;}
+#nav2 ul li a:hover{color:#c2770b; text-decoration:underline;}
+
+#banner{padding-bottom:4px;border:1px solid #e7d0b8;border-bottom:none; background:url(http://s.jesscool.com/imgpro/banner.jpg) #b89569 no-repeat left top;}
+#banner .extra{}
+/*-- style for logo,ad,nav2,banner end --*/
+
+
+
+/*-- style for nav1 start --*/
+#nav1{ background-color:#924807;overflow:hidden;}
+#nav1 ul{margin-left:-1px;}
+#nav1 ul li{line-height:38px; font-size:14px;font-weight:bold; background:url(http://s.jesscool.com/imgpro/nav1_li_dec.jpg) no-repeat 0px 13px;padding:0px 25px 0px 26px;}
+#nav1 ul li a{ color:#ebe9e9;padding:0px 2px;}
+#nav1 ul li a:hover{color:#fff;}
+/*-- style for nav1 end --*/
+
+
+
+/*-- style for view_look start --*/
+#content.view_look{margin:0px;padding:0px;}
+/*-- style for view_look end --*/
+

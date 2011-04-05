@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body{font-family:Microsoft YaHei,"宋体",Verdana;background:url(http://s.jesscool.com/imgpro/body_bg.gif) repeat-x left top;font-size:12px;}
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:underline;}
+
+.clear{clear:both;font-size:0px;}
+.clearFloat{zoom:1;}
+.clearFloat:after{content:".";display:block;height:0;font-size:0px;clear:both;visibility:hidden;}
+
+
+
+#box{width:940px;margin:0px auto;}
+
+
+/*-- header --*/
+#header{height:57px;font-size:13px;margin-bottom:10px;}
+#header a{color:#fff;}
+#header a:hover{color:#fff;text-decoration:underline;}
+
+#quickLink{height:22px;float:left;line-height:22px;padding-left:80px;}
+#quickLink li{float:left;padding-right:10px;}
+#login{height:22px;float:right;line-height:22px;}
+#login li{float:left;padding-left:10px;}
+#logo{clear:both;text-align:right;}
+
+
+/*-- main --*/
+#main{width:595px;margin:0px 0px 0px 80px;min-height:300px;float:left;margin-right:25px;display:inline;}
+
+.articleBox{}
+.article{}
+.articleTitle{font-size:21px;}
+.articleDec{padding:10px 0px 15px 0px;}
+.articleImg{padding:0px 0px 50px 0px;border-bottom:1px solid #000;margin-bottom:32px;position:relative;}
+.articleImg.noBorder{border:none;}
+.articleDate{width:67px;color:#fff;text-align:center;position:absolute;top:0px;left:-79px;}
+.articleDate dt{height:42px;line-height:42px;background-color:#000;margin-bottom:2px;}
+.articleDate dd{height:24px;line-height:24px;background-color:#000;}
+
+.articleDetail{position:relative;padding:10px 0px 15px 0px;}
+.detialText{line-height:20px;}
+.detialText img{margin:15px 0px 4px 0px;max-width:595px;}
+.articleDetail .articleDate{top:15px;}
+
+
+
+/*-- sidebar --*/
+#sidebar{width:240px;float:left;}
+#search{height:31px;margin:8px 0px 48px 0px;_margin-bottom:55px;}
+.searchInput{width:200px;height:15px;line-height:14px;border:none;padding:8px 0px 8px 5px;background:url(http://s.jesscool.com/imgpro/searchInput.gif) no-repeat left top;*margin-top:-1px;}
+.search-input{float:left;overflow:hidden;height:31px;width:205px;}
+.search-botton{float:left;}
+.searchBtm{float:left;}
+#articleType{width:240px;clear:both;margin:0px;font-size:14px;}
+#articleType li.hover{background-color:#f9f7f7;}
+#articleType li a{height:24px;line-height:24px;display:block;padding-left:18px;background:url(http://s.jesscool.com/imgpro/line.gif) repeat-x left bottom;}
+#articleType li.selected{background-color:#eee;font-weight:bold;}
+#articleType li.selected a{background:url(http://s.jesscool.com/imgpro/articleType_dec.gif) no-repeat left center;position:relative;left:-6px;text-indent:6px;}
+#articleType li a:hover{/*background-color:#eee;color:#000;*/text-decoration:none;}
+
+.hotCase-lists-li{clear:both;margin-bottom:20px;float:left;width:240px;}
+.hotCase-title{background-color:#eee;height:24px;line-height:24px;text-indent:8px;font-weight:bold;margin:27px 0px 10px 0px;font-size:14px;}
+.hotCase-img{float:left;margin-right:10px;width:50px;}
+.hotCase-div{float:left;width:180px;}
+.hotCase-div .title a{color:#333;}
+.hotCase-div .date{color:#888;}
+.hotCase a{}
+
+
+/*-- footer --*/
+#footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;}
+
+
