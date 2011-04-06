@@ -70,12 +70,27 @@
 		},
 		showLoading : function(){
 			this.box.html('<img src="http://s.jesscool.com/imgpro/wait.gif" />');
+		},
+		goTop : function(){
+			var $goTop = $(' <div class="goTop"><div>TOP</div></div> ');
+			$goTop.css({'opacity':'0.7'}).appendTo($('body')).click(function(){
+				$('html,body').animate({'scrollTop':'0px'});
+			});
+			
+			/*$(window).scroll(function(){
+				alert($(window).scollTop);
+				if($(document).scollTop() > 300){
+					$goTop.show();
+				}
+			});*/
 		}
+		
 	}
 	
 	// init
 	$(function(){
 		view.init();
+		view.goTop();
 		
 		//init data for index.jsp
 		if(view.box.size() != 0){
