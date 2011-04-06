@@ -98,6 +98,11 @@
 		}
 		
 	});
-	
-	
 })(jQuery);
+
+$(function(){
+	$( 'input.searchBtm' ).click(function(){
+		$('#searchForm').submit();	
+	});
+});
+
