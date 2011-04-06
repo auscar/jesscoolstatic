@@ -37,13 +37,14 @@ a:hover{text-decoration:underline;}
 .articleTitle span{color:#aeaeae;font-size:12px;margin-left:20px;}
 .articleDec{padding:10px 0px 15px 0px;}
 .articleImg{padding:0px 0px 50px 0px;border-bottom:1px solid #000;margin-bottom:32px;position:relative;}
+.articleImg img{max-width:595px;}
 .articleImg.noBorder{border:none;}
 .articleDate{width:67px;color:#fff;text-align:center;position:absolute;top:0px;left:-79px;}
 .articleDate dt{height:42px;line-height:42px;background-color:#000;margin-bottom:2px;}
 .articleDate dd{height:24px;line-height:24px;background-color:#000;}
 
 .articleDetail{position:relative;padding:10px 0px 15px 0px;}
-.detailText{line-height:20px;position:relative;top:-11px;font-size:13px;}
+.detailText{line-height:20px;position:relative;top:-11px;font-size:13px;z-index:1000;}
 .detailText img{margin:15px 0px 4px 0px;}
 .articleDetail .articleDate{top:15px;}
 
@@ -57,6 +58,8 @@ a:hover{text-decoration:underline;}
 #articleType li a{height:24px;line-height:24px;display:block;padding:0px 0px 2px 18px;background:url(http://s.jesscool.com/imgpro/line.gif) repeat-x left bottom;}
 #articleType li.selected{background-color:#eee;font-weight:bold;}
 #articleType li.selected a{background:url(http://s.jesscool.com/imgpro/articleType_dec.gif) no-repeat left center;position:relative;left:-6px;text-indent:6px;}
+#articleType li.dropHover{background-color:#666;}
+#articleType li.dropHover a{color:#fff;}
 #articleType li a:hover{/*background-color:#eee;color:#000;*/text-decoration:none;}
 #articleType li input{width:223px;padding-left:16px;}
 
@@ -71,4 +74,8 @@ a:hover{text-decoration:underline;}
 /*-- footer --*/
 #footer{ text-align:right;height:18px;padding:13px 0px 20px 0px;border-top:1px solid #888;clear:both;font-size:12px;}
 
+
+/*-- style for someTips --*/
+.someTips{font-size:12px;margin-top:20px;}
+.someTips h2{font-weight:bold;}
 

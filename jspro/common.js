@@ -6,6 +6,9 @@
 			$.ajax({
 				url : 'http://www.jesscool.com/moreLook.do?tagId='+id,
 				dataType : 'json',
+				beforeSend: function(){
+					view.showLoading();
+				},
 				success : function(obj){
 					This.curSet = obj.ary;		
 					view.renderArtlsList(This.curSet);
@@ -21,7 +24,7 @@
 	    },
 	    getUIRef : function(){
 	        this.articleType_li = $( '#articleType > li' );
-			this.box = $( 'div.articleBox', $('#main') );
+			this.box = $( '#articleBox');
 			console.log(this.box[ 0 ]);
 	    },
 	    bindEvent : function(){
@@ -30,6 +33,9 @@
 	        	$(this).addClass( 'hover' );
 	        },function(){
 	        	$(this).removeClass( 'hover' );
+	        }).click(function(){
+	        	loader.loadArtls( $(this).find( 'a' ).attr('tagId') );
+	        	$(this).addClass('selected').siblings().removeClass('selected');
 	        });
 	    },
 		renderArtlsList : function(ary){
@@ -39,6 +45,7 @@
 				html += this.makeAArtls(ary[i]);	
 			}
 			this.box.html(html);
+			imgCollect();
 		},
 		makeAArtls : function(art){
 			var t = art.intime.split('-');
@@ -46,13 +53,13 @@
 			return [
 				'<div class="article">',
 					'<h2 class="articleTitle">',
-						'<a target="_blank" href="'+ url +'">'+ art.title +'</a>',
+						'<a href="'+ url +'">'+ art.title +'</a>',
 					'</h2>',
 					'<div class="articleDec">',
-						'<a target="_blank" href="'+ url +'">'+ art.content +'</a>',
+						'<a href="'+ url +'">'+ art.content +'</a>',
 					'</div>',
 					'<div class="articleImg">',
-						'<a target="_blank" href="'+ url +'">'+ art.firstImg +'</a>',
+						'<a href="'+ url +'">'+ art.firstImg +'</a>',
 						'<dl class="articleDate">',
 							'<dt>'+ t[1]+'-'+t[2] +'</dt>',
 							'<dd>'+ t[0] +'</dd>',
@@ -60,13 +67,21 @@
 					'</div>',
 				'</div>'
 			].join('');		
+		},
+		showLoading : function(){
+			this.box.html('<img src="http://s.jesscool.com/imgpro/wait.gif" />');
 		}
 	}
 	
 	// init
 	$(function(){
 		view.init();
-		loader.loadArtls(2);
+		
+		//init data for index.jsp
+		if(view.box.size() != 0){
+			loader.loadArtls(7);
+		}
+		
 	});
 	
 	
